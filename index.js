@@ -43,11 +43,9 @@ function removeFromCart(item) {
   if (cart.indexOf(item) == -1){
     return `That item is not in your cart.`
   }
- for (let i = 0; i <getCart().length; i++){
-   var index = cart.indexOf(item)
-    (getCart().splice(index, 1)
-
-  }
+  var index = cart.indexOf(item)
+    getCart().splice(index, 1)
+    return cart
  }
 
  // function placeOrder(cardNumber) {
