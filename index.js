@@ -43,7 +43,7 @@ function removeFromCart(item) {
   if (cart.indexOf(item) == -1){
     return `That item is not in your cart.`
   }
-  var index = cart.indexOf(item)
+  var index = cart.indexOf(item);
     getCart().splice(index, 1)
     console.log(cart)
     return
