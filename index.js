@@ -40,17 +40,13 @@ var cartTotal = 0;
 }
 
 function removeFromCart(item) {
-var inCart;
-if (cart.indexOf(item) == -1){
-  console.log(item)
-  var inCart = `That item is not in your cart.`
-}
+  if (cart.indexOf(item) == -1){
+    return `That item is not in your cart.`
+  }
  for (let i = 0; i <getCart().length; i++){
-
  // else (getCart().splice(, 1)
  //  return cart;
 }
-return inCart;
  }
 
  // function placeOrder(cardNumber) {
