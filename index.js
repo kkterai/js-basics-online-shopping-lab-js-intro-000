@@ -44,11 +44,12 @@ var inCart = []
  for (let i = 0; i <getCart().length; i++){
    if (getCart().indexOf(`${item}`) == -1){
      console.log(item)
-     return `That item is not in your cart.`
+     var inCart = `That item is not in your cart.`
  }
  // else (getCart().splice(, 1)
  //  return cart;
-}
+} 
+return inCart;
  }
 
 
