@@ -48,7 +48,7 @@ function removeFromCart(item) {
     console.log(cart)
     return
  }
-
+removeFromCart(`watermelon`)
  // function placeOrder(cardNumber) {
  //   // write your code here
  // }
