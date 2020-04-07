@@ -40,7 +40,7 @@ var cartTotal = 0;
 }
 
 function removeFromCart(item) {
-var inCart = []
+var inCart;
  for (let i = 0; i <getCart().length; i++){
    if (getCart().indexOf(`${item}`) == -1){
      console.log(item)
