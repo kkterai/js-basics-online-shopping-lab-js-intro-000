@@ -43,8 +43,8 @@ function removeFromCart(item) {
    if (cart.item != item){
      return `That item is not in your cart.`
  }
-   else (cart.splice(itemName, 1,)
-     return cart
+ else (cart.splice(getCart()[i].itemName, 1,)
+  return cart
 }
 
 function placeOrder(cardNumber) {
