@@ -51,4 +51,3 @@ var inCart;
 }
 return inCart;
  }
-
