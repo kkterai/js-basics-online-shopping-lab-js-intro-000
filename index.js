@@ -44,6 +44,7 @@ function removeFromCart(item) {
     return `That item is not in your cart.`
   }
  for (let i = 0; i <getCart().length; i++){
+   var index = cart.indexOf(item)
     (getCart().splice(, 1)
 
   }
