@@ -46,7 +46,6 @@ function removeFromCart(item) {
   var index = cart.indexOf(item);
     getCart().splice(index, 1)
     console.log(cart)
-    return
  }
 removeFromCart(`watermelon`)
  // function placeOrder(cardNumber) {
