@@ -48,7 +48,7 @@ var inCart = []
  }
  // else (getCart().splice(, 1)
  //  return cart;
-} 
+}
 return inCart;
  }
 
