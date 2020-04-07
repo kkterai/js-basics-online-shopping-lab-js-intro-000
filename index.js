@@ -40,6 +40,7 @@ var cartTotal = 0;
 }
 
 function removeFromCart(item) {
+
    if (cart.item != item){
      return `That item is not in your cart.`
  }
