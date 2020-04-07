@@ -45,7 +45,7 @@ function removeFromCart(item) {
   }
  for (let i = 0; i <getCart().length; i++){
    var index = cart.indexOf(item)
-    (getCart().splice(, 1)
+    (getCart().splice(index, 1)
 
   }
  }
