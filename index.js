@@ -52,7 +52,3 @@ var inCart;
 return inCart;
  }
 
-
-// function placeOrder(cardNumber) {
-//   // write your code here
-// }
