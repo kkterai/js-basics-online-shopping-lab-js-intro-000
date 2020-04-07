@@ -46,7 +46,7 @@ if (cart.indexOf(item) == -1){
   var inCart = `That item is not in your cart.`
 }
  for (let i = 0; i <getCart().length; i++){
-  
+
  // else (getCart().splice(, 1)
  //  return cart;
 }
